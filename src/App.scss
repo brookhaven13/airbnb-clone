@@ -1,1 +1,13 @@
-
+.nav--wrapper {
+  box-sizing: border-box;
+  box-shadow: 1px 5px 8px 0px #f2f2f2cc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  width: 100%;
+  padding: 0 1rem;
+  .logo {
+    height: 2rem;
+  }
+}

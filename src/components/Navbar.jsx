@@ -1,12 +1,11 @@
-import React from "react";
+// import React from "react";
 import logo from "./../assets/img/airbnb-logo.png";
+import "./../App.scss";
 
-function Navbar() {
+export default function Navbar() {
   return (
-    <div className="nav-wrapper">
-      <img className="nav-logo" src={logo} />
+    <div className="nav--wrapper">
+      <img className="logo" src={logo} />
     </div>
   );
 }
-
-export default Navbar;
